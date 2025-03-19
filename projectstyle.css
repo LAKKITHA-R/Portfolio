@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.webp);
+}
+h1{
+    color:blueviolet;
+    font-family:Book Antiqua;
+    font-size: 35px;
+}
+p{
+    color:darkslategrey;
+    font-family:serif;
+    font-size: 25px;
+}
+a{
+    font-size: 20px;
+    color:red;
+    font-family:Berlin Sans FB;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:cadetblue;
+    font-family:Arial Rounded MT Bold;
+    font-weight: bold;
+    font-size: 30PX;
+}
+
+nav ul li a.active {
+    color:black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:black;
+}

@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtg-LXbYkpwVJLkEe6AhwK3z4YCLp1bVaVJQ&s);
+    color:black;
+    font-family: Calisto MT;
+    font-size: 20px;
+}
+
+
+    header{
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        display:flex;
+        justify-content: space-between;
+        font-size: 20PX;
+        padding: 20px 30px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+    
+    nav ul li {
+        display:flex;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color:azure;
+        font-family: Arial Rounded MT Bold;
+        font-weight: bold;
+        
+    }
+    nav ul li a.active {
+        color: cornflowerblue;
+    }
+    

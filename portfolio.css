@@ -1,0 +1,25 @@
+.pic{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.content{
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.front{
+color: red;
+}
+.image{
+    border:solid;
+    height:60vh;
+    width:60vb;
+    border-color: rgb(88, 86, 86);
+    border-radius:100%;
+    border-width: 20px;  
+}
