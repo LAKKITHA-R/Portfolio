@@ -1,6 +1,6 @@
 body{
-    background-color:black;
-    color:bisque;
+    background-color:rgb(219, 228, 243);
+    color:black;
     font-size: 30PX;
 }
 .title{
@@ -17,26 +17,15 @@ header{
     font-size: 20PX;
     padding: 20px 30px;
 }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
-nav ul li {
-    display:inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color:black;
-    font-family: Arial Rounded MT Bold;
-    font-weight: bold;
-    font-size: 30px;
+table{
+    border-collapse:collapse;
     
 }
-nav ul li a.active {
-    color: cornflowerblue;
+td{
+    border: 1px solid #272524;
+    padding: 20px;
+    text-align: left;
 }
-
+.container{
+    color: brown;
+}
